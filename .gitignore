@@ -1,0 +1,22 @@
+
+# React dependencies
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Future Spring Boot build output
+backend/target/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# IDE and operating system files
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
